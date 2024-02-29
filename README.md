@@ -27,8 +27,6 @@ O desafio foi criar uma tabela com dados estáticos totalmente reponsiva que se 
 
 ## ⚙️ Como funciona?
 
-## RFs (Requisitos funcionais)
-
 Parte da responsividade foi desenvolvida utilizando as classes do tailwind, para o restante foi criada uma função
 que verifica o tamanho da tela do usuário e renderiza o componente adequando para cada tela.
 
@@ -60,6 +58,10 @@ yarn
 
 ```bash
 npm run dev
+```
+
+```bash
+yarn dev
 ```
 
 ### Layout Desktop
