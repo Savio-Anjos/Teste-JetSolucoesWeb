@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, CheckCircle2, MoreVertical, Star } from "lucide-react";
+import { Check, MoreVertical, Star } from "lucide-react";
 import Image from "next/image";
 
 import cooper from "@/app/assets/mine-cooper.jpeg";
