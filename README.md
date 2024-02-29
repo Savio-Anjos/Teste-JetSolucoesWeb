@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align='center'><img width='400' src="./.github/logo.svg"/></p>
 
-## Getting Started
+ <p align='center'>
 
-First, run the development server:
+<img src="https://img.shields.io/github/repo-size/Savio-Anjos/Teste-JetSolucoesWeb?color=057A55">
+<img src="https://img.shields.io/github/languages/count/Savio-Anjos/Teste-JetSolucoesWeb?color=057A55">
+<img src="https://img.shields.io/github/last-commit/Savio-Anjos/Teste-JetSolucoesWeb?color=057A55">  
+</p>
+
+## 🚀 Da uma olhada no resultado:
+
+## - [Deploy](https://teste-jet-solucoes-web-one.vercel.app/)
+
+## 🚀 Tecnologias
+
+Este projeto está utilizando as seguintes tecnologias:
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
+- [Next](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+
+## 📜 Descrição
+
+Este é o projeto referente ao teste para Desenvolvedor Front-end da [JetSolutionsWeb](https://www.jetsolucoesweb.com.br/).
+O desafio foi criar uma tabela com dados estáticos totalmente reponsiva que se adaptasse tanto para desktop como para mobile utililazando TypeScript, ReactJS, NextJs e TailwindCSS.
+
+## ⚙️ Como funciona?
+
+Parte da responsividade foi desenvolvida utilizando as classes do tailwind, para o restante foi criada uma função
+que verifica o tamanho da tela do usuário e renderiza o componente adequando para cada tela.
+
+## 🎲 Quer customizar o projeto?
+
+### Clone esse repositório
+
+```bash
+git clone https://github.com/Savio-Anjos/Teste-JetSolucoesWeb.git
+```
+
+### Navegue até o diretório do projeto
+
+```bash
+cd Teste-JetSolucoesWeb
+```
+
+### Instale as dependências
+
+```bash
+npm i
+```
+
+```bash
+yarn
+```
+
+### Inicie a aplicação
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+yarn dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Layout Desktop
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img src=".github/desktop.png" />
 
-## Learn More
+### Layout Mobile
 
-To learn more about Next.js, take a look at the following resources:
+<img src=".github/mobile.png" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p>Criado com 💙 por <a href='https://github.com/Savio-Anjos/' target='_blank'>Sávio Anjos</a></p>
